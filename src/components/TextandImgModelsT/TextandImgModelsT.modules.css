@@ -1,0 +1,72 @@
+.text-and-img-models {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.text-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.text-and-img-models h1 {
+    color: black;
+    font-size: 48px;
+    margin-bottom: 10px;
+    padding-top: 40px;
+}
+
+.subtitle {
+    font-size: 14px;
+    margin-bottom: 10px;
+    letter-spacing: 4px;
+}
+
+.petrol-model {
+    font-size: 12px;
+    font-weight: 600;
+    padding-bottom: 80px;
+
+}
+
+.question, .twisted-t110, .capacity, .engine-specs {
+    font-size: 24px;
+    margin: 10px 0;
+    font-weight: 600;
+    color: rgb(59, 59, 59);
+}
+
+.engine-specs  {
+    padding-bottom: 80px;
+}
+.description, .chassis-info, .final-steps, .contact {
+    font-size: 24px;
+    margin: 10px 0;
+    font-weight: 600;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: rgb(59, 59, 59);
+}
+
+
+.contact {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.image-section {
+    display: grid; /* Şəkilləri qruplaşdırır */
+    grid-template-columns: repeat(2, 1fr); /* İki sütunlu düzülüş */
+    gap: 0; /* Boşluq yoxdur */
+    width: 100%; /* Tam ekran genişliyi */
+}
+
+.image-section img {
+    width: 100%; /* Tam genişlik */
+    height: auto; /* Nisbətini qoruyur */
+}
+
+/* Daha kiçik ekranlarda şəkilləri alt-üst düzülüşdə göstərəcək */
+@media (max-width: 768px) {
+    .image-section {
+        grid-template-columns: 1fr; /* Tək sütun */
+    }
+}

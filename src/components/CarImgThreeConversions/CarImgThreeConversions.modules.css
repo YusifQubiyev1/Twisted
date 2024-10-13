@@ -1,0 +1,14 @@
+.CarImgThreeConversions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 80px;
+}
+
+.CarImgThreeConversions img {
+    flex: 1;
+    min-width: 300px;
+    height: auto;                 
+}

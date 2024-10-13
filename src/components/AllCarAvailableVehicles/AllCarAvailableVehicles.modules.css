@@ -1,0 +1,93 @@
+.available-vehiclesAll1 {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 70px;
+}
+
+.available-vehiclesAll1 h1 {
+    font-size: 56px;
+    padding-top: 70px;
+    margin-bottom: 10px;
+}
+
+.available-vehiclesAll1 p {
+    font-size: 28px;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+}
+
+.filter-buttonsAll1 {
+    margin-bottom: 20px;
+}
+
+.filter-buttonsAll1 button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.car-grid-allAll1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    justify-items: center;
+}
+
+.car-card-allAll1 {
+    padding: 20px;
+    text-align: left;
+    max-width: 350px;
+    display: flex;
+    margin-top: 50px;
+}
+
+.car-card-allAll1 img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    object-fit: cover;
+}
+
+.car-details-allAll1 {
+    text-align: left;
+}
+
+.car-details-allAll1 h2 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.car-details-allAll1 p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.car-details-allAll1-a {
+    text-decoration: none;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: 2px solid #000;
+    font-weight: bold;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.car-details-allAll1-a:hover {
+    background-color: #c8c8c8;
+}
+
+@media (max-width: 768px) {
+    .car-grid-allAll1 {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .car-card-allAll1 {
+        flex-direction: column; }
+}

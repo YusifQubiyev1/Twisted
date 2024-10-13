@@ -1,0 +1,22 @@
+.collage-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 300px;
+}
+
+.collage-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 800px) {
+    .collage-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr); 
+    }
+}

@@ -1,0 +1,39 @@
+.info-cars-models-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+
+  .info-column {
+    width: 20%;
+  }
+
+  .info-cars-models-container .info-column h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  .info-cars-models-container .info-column ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.6;
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+  }
+
+  .info-cars-models-container .info-column li {
+    padding: 5px 0;
+  }
+
+  .info-column ul li {
+    text-align: left;
+    font-family: Arial, sans-serif;
+  }
+
+  .info-column ul li:hover {
+    color: #000;
+  }

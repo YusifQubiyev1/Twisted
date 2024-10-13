@@ -1,0 +1,41 @@
+.TextandImages {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.TextandImages div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.TextandImages img {
+    width: 25%;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+.TextandImagesPtag {
+    color: #494e51;
+    font-size: 28px;
+    padding: 25px 20px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .TextandImages img {
+        height: auto;
+    }
+
+    .TextandImagesPtag {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 400px) {
+    .TextandImagesPtag {
+        font-size: 10px;
+    }
+}

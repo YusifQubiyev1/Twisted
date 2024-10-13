@@ -1,0 +1,135 @@
+.cars-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.logo-and-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo-ci {
+    width: 250px;
+    margin-top: 60px;
+}
+
+.models-ci {
+    color: #494e51;
+    font-size: 16px;
+    /* padding: 25px 20px; */
+    text-align: left;
+    padding-left: 50px;
+}
+
+.pTagCimodels {
+    letter-spacing: 16px;
+    font-size: 22px;
+}
+
+.CarsInformationsDiv h2 {
+    text-align: left;
+    padding-left: 50px;
+}
+
+.cars-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 47px;
+    row-gap: 63px;
+    margin: 20px 0;
+    /* width: 100%;
+    max-width: 1000px; */
+}
+
+.car-card {
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+    display: flex;
+    max-width: 630px;
+    width: 100%;
+}
+
+
+
+.car-image {
+    width: 55%;
+    height: 25vh;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.learn-more-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: 3px solid #000;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+    margin-right: 60px;
+}
+
+.learn-more-button:hover {
+    background-color: #d7d7d7;
+}
+
+.final-paragraph {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #494e51;
+    line-height: 33px;
+    padding-top: 40px;
+}
+
+.ciPtagminiText {
+    padding-top: 60px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 8px;
+    color: #494e51;
+}
+
+.starsimgci {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.starsimgci p {
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    color: #cbb55a;
+}
+
+.starsimgci img {
+    width: 25px;
+    height: 24px;
+}
+
+@media (max-width: 1000px) {
+    .cars-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .car-card {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .learn-more-button {
+        margin-right: 0;
+    }
+}

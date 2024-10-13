@@ -1,0 +1,42 @@
+.ModelsTH2TAG {
+    color: #000;
+    text-align: center;
+}
+
+.ModelsTH2TAG2 {
+    color: #474747;
+    font-size: 20px;
+    text-align: center;
+}
+
+.ModelsTH2TAG23 {
+    padding-bottom: 40px;
+}
+
+.modelsTBTN {
+    border:2px solid  #000;
+    color: #000;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 15px 40px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.modelsTBTN:hover {
+    background-color: #b8b8b8;
+}
+
+.partners-infoModelsT {
+    color: #000;
+    font-size: 24px;
+}
+
+.partners-infoModelsT a {
+    color: #000;
+}
+
+.partners-infoModelsT a:hover {
+    color: blue;
+}

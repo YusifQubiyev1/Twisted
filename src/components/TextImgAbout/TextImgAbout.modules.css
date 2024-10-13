@@ -1,0 +1,22 @@
+.img-about-back {
+    width: 100%;
+    position: relative;
+}
+
+.text-p-about {
+    position: absolute;
+    /* top: 50%; */
+    margin-top: -425px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media (max-width: 500px) {
+    .text-p-about {
+        display: none;
+    }
+}

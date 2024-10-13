@@ -1,0 +1,63 @@
+.CardsandTextCommissions-texts {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 100px ;
+}
+
+.CardsandTextCommissions-texts h1 {
+    font-size: 46px;
+    margin-bottom: 10px;
+}
+
+.CardsandTextCommissions-texts p {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.CardsandTextCommissions-texts p:nth-child(3) {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.CardsandTextCommissions-cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0;
+    justify-items: center;
+}
+
+.CardsandTextCommissions-cards div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.CardsandTextCommissions-cards img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.CardsandTextCommissions-cards p {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+
+
+@media (max-width: 768px) {
+    .CardsandTextCommissions-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Ekran ölçüsü 480px-dən aşağı olduqda şəkillər 1 sütuna düzüləcək */
+@media (max-width: 480px) {
+    .CardsandTextCommissions-cards {
+        grid-template-columns: 1fr;
+    }
+}

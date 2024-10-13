@@ -1,0 +1,11 @@
+.imagecar-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.t130models {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

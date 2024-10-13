@@ -1,0 +1,43 @@
+
+.carandtextimgabout {
+    position: relative;
+    text-align: center;
+}
+
+.cardandtextimgabt {
+    width: 100%;
+    height: auto;
+}
+
+.sing-and-text-abt {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: rgb(50, 50, 50);
+    z-index: 1;
+
+}
+
+.signature {
+    max-width: 100%;
+    height: auto;
+}
+
+.signature-PTAG {
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: 600;
+    padding-left: 400px;
+}
+
+
+@media (max-width: 500px) {
+    .signature-PTAG {
+        display: none;
+    }
+}

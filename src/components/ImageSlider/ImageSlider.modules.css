@@ -1,0 +1,224 @@
+.image-slider {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+}
+
+
+.image-slider {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+
+}
+
+.slide-image {
+  width: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: left;
+}
+
+.overlay h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2.5rem;
+  z-index: 10;
+}
+
+.btn-commissions {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  z-index: 10;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 2rem;
+  z-index: 10;
+  transition: background-color 0.3s ease;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+
+.image-slider img {
+  width: 100%;
+  height: auto;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.slide {
+  position: relative;
+}
+
+.home-content {
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  text-align: left;
+}
+
+.home-content h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.btn-commissions {
+  background-color: transparent;
+  padding: 20px 30px;
+  border: 1px solid #fff;
+  color: white;
+  font-size: 20px;
+  margin-top: 7px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-commissions:hover {
+  background-color: hsla(0, 0%, 68%, .57);
+}
+
+
+
+
+
+@media (max-width: 1500px) {
+  .home-content h1 {
+    font-size: 2rem;
+  }
+
+  .btn-commissions {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .home-content h1 {
+    font-size: 1.2rem;
+  }
+
+  .btn-commissions {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .home-content h1 {
+    font-size: 0.7rem;
+  }
+
+  .btn-commissions {
+    font-size: 8px;
+    padding: 5px 8px;
+  }
+}
+
+@media (max-width: 300px) {
+  .home-content h1 {
+    display: none;
+  }
+
+  .btn-commissions {
+    display: none;
+  }
+}
+
+
+
+@media (max-width: 500px) {
+
+  /* Şəkilləri gizlət */
+  .slide-image {
+    display: none;
+  }
+
+  /* Arxa fon şəklini əlavə et */
+  .slide-container {
+    background-image: url('../../assets/images/1.jpg');
+    /* responimg1 */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+  }
+
+
+  .imgsliderslidertext {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+    z-index: 10;
+    margin-left: 130px;
+
+  }
+
+  .btn-commissions {
+    font-size: 12px;
+    padding: 11px 14px;
+    margin-left: 141px;
+  }
+}

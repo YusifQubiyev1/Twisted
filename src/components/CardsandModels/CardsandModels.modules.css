@@ -1,0 +1,78 @@
+.btn-commissions-cm {
+    background-color: transparent;
+    padding: 20px 30px;
+    border: 1px solid #000000;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-top: 7px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+}
+
+.btn-CaM {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-commissions-cm:hover {
+    background-color: hsla(0, 0%, 68%, .57);
+}
+
+
+
+.CaM-ptag {
+    letter-spacing: 14px;
+    font-size: 20px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.cars-CaM {
+    width: 100%;
+    display: flex;
+    margin-bottom: 80px;
+    margin-top: 90px;
+}
+
+.cars-CaM div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.cars-CaM img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.cars-CaM img:hover {
+    transform: scale(1.08);
+    transition: 0.5s;
+}
+
+.cars-CaM a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 700;
+
+}
+
+@media (max-width: 950px) {
+    .cars-CaM {
+       display: flex;
+       flex-direction: column;
+       gap: 100px;
+    }
+
+    .cars-CaM img {
+        height: auto;
+    }
+}

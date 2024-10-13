@@ -1,0 +1,54 @@
+.sixteen-cards-about {
+    text-align: center;
+    padding: 20px;
+}
+
+.logo-and-text-sixteen {
+    margin-bottom: 20px;
+}
+
+.logo-and-text-sixteen img {
+    max-width: 220px;
+    margin-top: 40px;
+}
+
+.logo-and-text-sixteen {
+    letter-spacing: 16px;
+    font-size: 16px;
+    color: rgb(81, 81, 81);
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+
+.cards-sixteen {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.cards-sixteen img {
+    width: 100%;
+    height: auto;
+}
+
+.footer-text-sixteen {
+    font-size: 18px;
+    margin-top: 30px;
+    color: rgb(67, 67, 67);
+    letter-spacing: 14px;
+}
+
+@media (max-width: 768px) {
+    .cards-sixteen {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .cards-sixteen {
+        grid-template-columns: 1fr;
+    }
+}
